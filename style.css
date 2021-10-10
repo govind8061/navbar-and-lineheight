@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+}
+.navbar{
+	background-color: darkred;
+	display: flex;
+	color: ghostwhite;
+	padding: 15px;
+}
+.nav{
+	line-height: 1.4;
+	align-content: center;
+	margin-right: 20px;
+}
+.nav a{
+	text-decoration: none;
+	color: ghostwhite;
+}
+#nav-1{
+}
+#nav-2{
+	font-size: 22px;
+	line-height: 1.1;
+}
+#nav-3{
+	display: flex;
+	flex-basis: 100%;
+	font-size: 17px;
+}
+.nav-child{
+	background-color: green;
+	display: flex;
+}
+.ch{
+	line-height: 1.6;
+	padding-right: 18px;
+}
+#ch-4{
+	display: flex;
+	flex-basis: 100%;
+	justify-content: flex-end;
+	background-color: red;
+}
